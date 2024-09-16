@@ -1,0 +1,123 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body {
+         background: #000;
+}
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    /* padding-left:3rem;
+    padding-right:55rem; */
+    background-color: rgb(20,20,20);
+    color:#e5e5e5;
+    height:3rem;
+}
+.space1{
+    width:1%;
+}
+.space2{
+    width:30%;
+}
+h2{
+    color:#e5e5e5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.photo{
+    height:2.8rem;
+    border-radius:50%;
+}
+.name{
+    height: 70%;
+}
+a:link, a:visited{
+    color:#e5e5e5;
+    text-decoration: none;
+}
+.mid{
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:white;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-size: 1rem;
+}
+.photo1{
+    height:100%;
+    opacity: 95%;
+}
+.content{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:#e5e5e5;
+}
+.i{
+    margin:2px;
+    width: 300px;
+    height: 200px;
+}
+.i1{
+    margin:2px;
+    width: 250px;
+    height: 200px;
+}
+
+
+/* .content{
+    display: grid;
+    color:white;
+} */
+/* .verticalLine{
+    margin:0rem;
+    padding-top:2rem;
+    padding-bottom:1rem;
+    background-color: rgba(245, 245, 245, 0.677);
+    width:0.1rem;
+    height:2rem;
+}
+.line{
+    margin-left:2rem;
+    background-color:rgba(245, 245, 245, 0.677);
+    width:90%;
+    height: 0.1rem;
+}
+.leftSide{ 
+    padding-top: 2rem;
+   align-items: center;
+   padding-left:5rem;
+   padding-right:10rem;
+   font-size: 1.2rem;
+   font-family: Helvetica , sans-serif;
+}
+.rightSide{
+    align-items: center;
+    padding-left:5rem;
+    padding-right:10rem;
+    font-size:0.9rem;
+    font-weight: Helvetica , sans-serif;
+}
+.education{
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    display:flex;
+    color:rgba(255, 255, 255, 0.916);
+}
+li{
+    font-size: 1rem;
+} */
