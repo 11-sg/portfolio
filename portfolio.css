@@ -67,22 +67,43 @@ p{
     justify-content: center;
     color:#e5e5e5;
 }
-.i{
-    margin:2px;
+/* image */
+#i{ 
+    margin:3px;
     width: 300px;
     height: 200px;
+   
 }
-.i1{
-    margin:2px;
+/* text */
+#q1{
+    /* margin:3px; */
     width: 250px;
     height: 200px;
 }
 
 
-/* .content{
-    display: grid;
-    color:white;
+
+
+/* .hover1 {
+    transition:
+    width 2s,
+    height 2s;
+    transition-duration: 3s;
 } */
+/* #i:hover {
+    width: 500px;
+    height: 250px;
+    rotate: 360deg;
+  } */
+  
+
+/* .hover1:hover {
+    width: 500px;
+    height: 400px;
+    transition-duration: 10s;
+} */
+
+
 /* .verticalLine{
     margin:0rem;
     padding-top:2rem;
