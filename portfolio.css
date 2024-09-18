@@ -14,6 +14,8 @@ body {
     background-color: rgb(20,20,20);
     color:#e5e5e5;
     height:3rem;
+    position: sticky;
+    top: 0px;
 }
 .space1{
     width:1%;
@@ -29,8 +31,8 @@ h2{
     font-family: sans-serif;
 }
 .photo{
-    height:2.8rem;
-    border-radius:50%;
+    height:2.5rem;
+    border-radius:2px;
 }
 .name{
     height: 70%;
@@ -57,6 +59,28 @@ a:link, a:visited{
 p{
     font-size: 1rem;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.button{
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(109, 109, 110, 0.57);
+    color: white;
+    cursor: pointer;
+    border:none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    height:3rem;
+    width:9rem;
+}
+.button:hover{
+    background-color: rgba(109, 109, 110, 0.7);
+}
 .photo1{
     height:100%;
     opacity: 95%;
@@ -66,21 +90,25 @@ p{
     align-items: center;
     justify-content: center;
     color:#e5e5e5;
+    margin-left: 50px;
 }
 /* image */
 #i{ 
     margin:3px;
     width: 300px;
     height: 200px;
+    border-radius: 5px;
    
 }
 /* text */
 #q1{
-    /* margin:3px; */
+    margin:3px;
     width: 250px;
     height: 200px;
 }
-
+#i:hover {
+    cursor: pointer;
+}
 
 
 
@@ -97,11 +125,7 @@ p{
   } */
   
 
-/* .hover1:hover {
-    width: 500px;
-    height: 400px;
-    transition-duration: 10s;
-} */
+/*
 
 
 /* .verticalLine{
