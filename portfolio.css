@@ -100,9 +100,12 @@ p{
     border-radius: 5px;
    
 }
+.pr{
+    opacity: 95%;
+}
 /* text */
 #q1{
-    margin:3px;
+    margin:2px;
     width: 250px;
     height: 200px;
 }
