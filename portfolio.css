@@ -85,18 +85,30 @@ p{
     height:100%;
     opacity: 95%;
 }
+.mylist{
+    margin-left: 50px;
+    color:#e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: 100;
+    font-size: 1.2vw;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
 .content{
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color:#e5e5e5;
+    height: 150px;
     margin-left: 50px;
 }
 /* image */
 #i{ 
-    margin:3px;
-    width: 300px;
-    height: 200px;
+    margin-left:3px;
+    margin-right: 3px;
+    width: 250px;
+    height: 150px;
     border-radius: 5px;
    
 }
@@ -105,11 +117,13 @@ p{
 }
 /* text */
 #q1{
-    margin:2px;
+    margin-top: -4px;
+    margin-left:3px;
+    margin-right: 3px;
     width: 250px;
-    height: 200px;
+    border-radius: 5px;
 }
-#i:hover {
+.content:hover {
     cursor: pointer;
 }
 .footer{
