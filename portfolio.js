@@ -1,8 +1,8 @@
-// const ed=document.querySelector('.ed');
-// const pr=document.querySelector('.pr');
-// const ex=document.querySelector('.ex');
-// const ac=document.querySelector('.ex');
-// const sk=document.querySelector('.sk');
+const ed=document.querySelector('.ed');
+const pr=document.querySelector('.pr');
+const ex=document.querySelector('.ex');
+const ac=document.querySelector('.ac');
+const sk=document.querySelector('.sk');
 
 const edu=document.querySelector('.i1');
 const pro=document.querySelector('.i2');
@@ -17,7 +17,7 @@ const hover4=document.querySelector('.hover4');
 const hover5=document.querySelector('.hover5');
 
 
-hover1.addEventListener("mouseover", (e)=>{
+ed.addEventListener("mouseover", (e)=>{
    edu.innerHTML="<li><b>City Montessori School</b></li> <p>Scored <i> 97.83% </i> in 12th ISC Board</p>  <br><li><b>Vellore Institute Of Technology</b></li> <p>Bachelor of Technology - Computer Science and Engineering; <i>GPA: 9.22</i></p> ";
    // hover1.style.width = '500px';
    // hover1.style.height = '400px';
@@ -28,28 +28,29 @@ hover1.addEventListener("mouseover", (e)=>{
    // hover1.style.margin = '3px';
    hover1.style.transition = "transform 0.5s ease";
    hover1.style.transform = "scale(1.3)";
+   edu.style.backgroundColor = "white";
 });
 
-hover2.addEventListener("mouseover", (e)=>{
+pr.addEventListener("mouseover", (e)=>{
    pro.innerHTML=" <li><b>Currency Converter </b> (Web Development)</li> <p>Converts USD to different currencies using API. Tech: HTML, CSS, JavaScript (June '24)<br></p> <br><li><b>Rock Paper Scissor Game </b> (Web Development)</li> <p>Created from scratch a game played with hands in our childhood Tech: HTML, CSS, JavaScript (June '24)</p> ";
    hover2.style.transition = "transform 0.5s ease";
    hover2.style.transform = "scale(1.3)";
  });
 
 
-hover3.addEventListener("mouseover", (e)=>{
+ex.addEventListener("mouseover", (e)=>{
    exp.innerHTML="<li><b>CodSoft Internship</b><i> (Remote: January 2024- Februray 2024) </i></li> <p>Tech: Completed 5 assigned tasks, including a Random Number Guessing Game, Marks Calculator, and ATM Interface, with 3 tasks being mandatory. Gained hands-on experience and deepened understanding of core Java concepts. </p> ";
    hover3.style.transition = "transform 0.5s ease";
    hover3.style.transform = "scale(1.3)";
  });
 
-hover4.addEventListener("mouseover", (e)=>{
+ac.addEventListener("mouseover", (e)=>{
    ach.innerHTML="<p>▪ Awarded a scholarship by the Council for the Indian School Certificate Examinations (June 23)<br><br>▪ Achieved a rank of 143 out of 1,318 participants in the All India Coding Competitions (April 22)<br><br>▪ Received a Letter of Recommendation from Mindler (Jan 24) </p>";
    hover4.style.transition = "transform 0.5s ease";
    hover4.style.transform = "scale(1.3)";
  });
 
-hover5.addEventListener("mouseover", (e)=>{
+sk.addEventListener("mouseover", (e)=>{
    ski.innerHTML="<p> JAVA <br><br> Python <br><br> C++ <br><br> HTML CSS Javascript <br><br> </p>";
    hover5.style.transition = "transform 0.5s ease";
    hover5.style.transform = "scale(1.3)";
@@ -57,27 +58,27 @@ hover5.addEventListener("mouseover", (e)=>{
 
 
 
- hover1.addEventListener("mouseout", (e)=>{
+ ed.addEventListener("mouseout", (e)=>{
    edu.innerHTML="";
    hover1.style.transition = "transform 0.5s ease";
    hover1.style.transform = "scale(1)";
 });
-hover2.addEventListener("mouseout", (e)=>{
+pr.addEventListener("mouseout", (e)=>{
    pro.innerHTML="";
    hover2.style.transition = "transform 0.5s ease";
    hover2.style.transform = "scale(1)";
 });
-hover3.addEventListener("mouseout", (e)=>{
+ex.addEventListener("mouseout", (e)=>{
    exp.innerHTML="";
    hover3.style.transition = "transform 0.5s ease";
    hover3.style.transform = "scale(1)";
 });
-hover4.addEventListener("mouseout", (e)=>{
+ac.addEventListener("mouseout", (e)=>{
    ach.innerHTML="";
    hover4.style.transition = "transform 0.5s ease";
    hover4.style.transform = "scale(1)";
 });
-hover5.addEventListener("mouseout", (e)=>{
+sk.addEventListener("mouseout", (e)=>{
    ski.innerHTML="";
    hover5.style.transition = "transform 0.5s ease";
    hover5.style.transform = "scale(1)";

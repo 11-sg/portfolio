@@ -112,21 +112,25 @@ p{
 #i:hover {
     cursor: pointer;
 }
-
-
-
-/* .hover1 {
-    transition:
-    width 2s,
-    height 2s;
-    transition-duration: 3s;
+.footer{
+    color: grey;
+    margin: 20px auto 0;
+    max-width: 980px;
+    padding: 0 4%;
+}
+/* .endfooter{
+    color: grey;
+    margin: 20px auto 0;
+    max-width: 980px;
+    padding: 0 4%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 11px;
+    margin-bottom: 15px;
+    
 } */
-/* #i:hover {
-    width: 500px;
-    height: 250px;
-    rotate: 360deg;
-  } */
-  
+
+
+
 
 /*
 
