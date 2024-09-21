@@ -1,3 +1,4 @@
+alert("Working on desktop only !");
 const ed=document.querySelector('.ed');
 const pr=document.querySelector('.pr');
 const ex=document.querySelector('.ex');
@@ -18,6 +19,20 @@ const hover2=document.querySelector('.hover2');
 const hover3=document.querySelector('.hover3');
 const hover4=document.querySelector('.hover4');
 const hover5=document.querySelector('.hover5');
+
+function togglePopup() {
+   document.getElementById("popup-1").classList.toggle("active");
+}
+
+// Open popup when button is clicked
+document.querySelector(".btn").addEventListener("click", (e) => {
+   document.getElementById("popup-1").classList.add('active');
+});
+
+// Close popup and reset overlay
+document.querySelector(".closebtn").addEventListener("click", (e) => {
+   document.getElementById("popup-1").classList.remove('active');
+});
 
 hover1.addEventListener("mouseover", (e)=>{
    edu.innerHTML="<h5>S1:E1 &quot;Education&quot;</h5>  <br><b>City Montessori School</b><br> Scored 97.67% in 10th ISCE Board <br> Scored 97.83% in 12th ISC Board<br> <br><b>Vellore Institute Of Technology</b><br>Bachelor of Technology - Computer Science and Engineering; GPA: 9.22 ";
