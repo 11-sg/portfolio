@@ -87,6 +87,7 @@ p{
 }
 .mylist{
     margin-left: 50px;
+    height: 100px;
     color:#e5e5e5;
     display: flex;
     align-items: center;
@@ -116,12 +117,19 @@ p{
     opacity: 95%;
 }
 /* text */
-#q1{
-    margin-top: -4px;
+.i{
+    width: 250px;
+    margin-top: -4.5px;
     margin-left:3px;
     margin-right: 3px;
-    width: 250px;
-    border-radius: 5px;
+}
+
+#q1{
+    /* display: grid; */
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    border: 1rem solid black;
+    width: 200px;
+    font-size: 0.65vw;
 }
 .content:hover {
     cursor: pointer;
