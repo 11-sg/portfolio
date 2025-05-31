@@ -959,12 +959,6 @@ a:visited {
 
 }
 
-/* @media(max-width:361px){
-    .arrow1{
-        top: 750px;
-    }
-} */
-
 @media(max-width:361px) {
     .arrow1 {
         top: 700px;
