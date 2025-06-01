@@ -32,7 +32,7 @@ https://11-sg.github.io/portfolio/
 - **Font Awesome** for icons
 
 
-=======
+=======<br>
 Sahil Gupta's Portfolio<br>
 Welcome to my portfolio! This project is inspired by the design and user interface of Netflix. It showcases my skills in web development using HTML, CSS, and JavaScript, and is optimized specifically for desktop users.
 <br>
@@ -65,4 +65,3 @@ Feel free to reach out if you have any questions or want to collaborate on proje
 
 Email: sg4242674@gmail.com<br>
 LinkedIn: [Sahil Gupta LinkedIn](https://www.linkedin.com/in/sahil-gupta-4a7b8b230/)<br>
->>>>>>> 9fed720800f639f3bfb97ce2a9c38ba0a8acdb7d

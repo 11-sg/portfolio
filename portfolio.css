@@ -692,6 +692,51 @@ a:visited {
         margin-right: 5%;
     }
 
+    .pop .con {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        width: 400px;
+        height: 500px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .mi {
+        width: 90%;
+        height: 90%;
+    }
+
+    .mi1 {
+        background-color: black;
+        margin-top: -10px;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        border: 0.5rem solid black;
+        width: 95%;
+        height: 100%;
+        font-size: 0.7rem;
+    }
+
+    .pop .closebtn {
+        cursor: pointer;
+        position: absolute;
+        right: 80px;
+        top: 30px;
+        width: 30px;
+        height: 30px;
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 50%;
+        color: whitesmoke;
+        background-color: black;
+
+    }
+
 }
 
 
@@ -813,6 +858,11 @@ a:visited {
     }
 }
 
+@media (max-width:436px) {
+    .arrow1 {
+        top: 560px;
+    }
+}
 
 @media (max-width:426px) {
     .header {
@@ -891,14 +941,36 @@ a:visited {
 }
 
 @media(max-width:387px) {
+    .arrow1 {
+        top: 690px;
+    }
+
     .content {
         margin-left: 95%;
     }
 }
 
-@media(max-width:380px) {
+@media(max-width:381px) {
     .arrow1 {
         top: 750px;
+    }
+}
+
+@media(width:380px) {
+    .arrow1 {
+        top: 680px;
+    }
+}
+
+@media(max-width:379px) {
+    .arrow1 {
+        top: 740px;
+    }
+}
+
+@media(max-width: 371px) {
+    .arrow1 {
+        top: 755px;
     }
 
     .button {
@@ -959,9 +1031,9 @@ a:visited {
 
 }
 
-@media(max-width:361px) {
+@media(max-width:360px) {
     .arrow1 {
-        top: 700px;
+        top: 680px;
     }
 
     .button {

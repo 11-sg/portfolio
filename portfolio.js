@@ -13,6 +13,8 @@ const exp = document.querySelector('.i3');
 const ach = document.querySelector('.i4');
 const ski = document.querySelector('.i5');
 
+const overlay = document.querySelector(".overlay");
+
 const content = document.querySelector('.content');
 const i = document.querySelectorAll('.i');
 
@@ -108,6 +110,11 @@ document.querySelector(".button").addEventListener("click", (e) => {
 document.querySelector(".closebtn").addEventListener("click", (e) => {
    document.getElementById("popup-1").classList.remove('active');
 });
+
+overlay.addEventListener("click", (e) => {
+   document.getElementById("popup-1").classList.remove('active');
+});
+
 //hover effect on mylist
 hover1.addEventListener("mouseover", (e) => {
    edu.innerHTML = `<h5>S1:E1 &quot;Education&quot;</h5><br>   
