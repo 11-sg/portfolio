@@ -10,7 +10,7 @@ https://11-sg.github.io/portfolio/
 ---
 
 ## 📸 Preview
-![alt text](image-1.png)
+![alt text](.\Assets\image-1.png)
 
 ---
 
