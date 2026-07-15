@@ -5,7 +5,7 @@
 Welcome to my **Netflix-inspired portfolio** – a sleek, cinematic showcase of my work, skills, and projects, designed to mirror the iconic Netflix UI. This portfolio blends visual storytelling with technical finesse to deliver an immersive user experience.
 
 ## 🔥 Live Demo
-https://11-sg.github.io/portfolio/
+https://sahilportfolio-sooty.vercel.app/
 
 ---
 
